@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Forensic recovery output
+forensic_recovery/
+recovered_files/
+*.log
+forensic_log.txt
+forensic_report_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Test files
+test_output/
